@@ -18,9 +18,10 @@
 	padding-left: 30px;
 }
 
-.user-form-wrapper {
+.user-form-items {
 	display: flex;
 	flex-direction: column;
+	list-style: none;
 }
 
 
@@ -49,4 +50,9 @@ body {
 	line-height: 20px;
 	color: #000000;
 	background-color: #ffffff;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
 }

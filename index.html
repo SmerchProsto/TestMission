@@ -12,53 +12,67 @@
 	<main>
 		<form class="main-form" action="#" method="post">
 			<h1 class="main-form-title">Регистрация</h1>
-			<div class="wrapper-list-choice">
+			<ul class="wrapper-list-choice">
 				<h2 class="list-choice-title">Вы регистрируетесь как</h2>
 				<ul class="list-choice">
 					<li class="list-choice-item">Покупатель</li>
 					<li class="list-choice-item">Поставщик</li>
 				</ul>
-			</div>
+			</ul>
 			<section class="user-form">
 				<section class="user-form-email">
-					<div class="user-form-wrapper">
-						<label for="" class="user-form-subscription">Эл. Почта</label>
-					    <input type="email" class="user-form-input">
-					</div>
+					<ul class="user-form-items">
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">Эл. Почта</label>
+					    	<input type="email" class="user-form-input">
+						</li>
+					</ul>
 				</section>
 				<section class="user-form-organization">
 					<h2 class="user-form-title">Название организации</h2>
-					<div class="user-form-wrapper">
-						<label for="" class="user-form-subscription">ИП или Юр.лицо</label>
-						<input type="text" class="user-form-input">
-						<label for="" class="user-form-subscription">ИНН</label>
-						<input type="text" class="user-form-input">
-					</div>
+					<ul class="user-form-items">
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">ИП или Юр.лицо</label>
+							<input type="text" class="user-form-input">
+						</li>
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">ИНН</label>
+							<input type="text" class="user-form-input">
+						</li>
+					</ul>
 				</section>
 				<section class="user-form-address">
 					<h2 class="user-form-title">Фактический адрес</h2>
-					<div class="user-form-wrapper">
-						<label for="" class="user-form-subscription">Ваш город</label>
-						<input type="text" class="user-form-input">
-						<ul class="location-items">
-							<li class="location-item">
-								<label for="" class="user-form-subscription">Улица</label>
-								<input type="text" class="user-form-input">
-							</li>
-							<li class="location-item">
-								<label for="" class="user-form-subscription">Дом/стр.</label>
-								<input type="text" class="user-form-input">
-							</li>
-							<li class="location-item">
-								<label for="" class="user-form-subscription">Офис</label>
-								<input type="text" class="user-form-input">
-							</li>
-						</ul>
-						<label for="" class="user-form-subscription">Телефон</label>
-						<input type="tel" class="user-form-input">
-						<label for="" class="user-form-subscription">Сайт вашей компании</label>
-						<input type="url" class="user-form-input">
-					</div>
+					<ul class="user-form-items">
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">Ваш город</label>
+							<input type="text" class="user-form-input">
+						</li>
+						<li class="user-form-item">
+							<ul class="location-items">
+								<li class="location-item">
+									<label for="" class="user-form-subscription">Улица</label>
+									<input type="text" class="user-form-input">
+								</li>
+								<li class="location-item">
+									<label for="" class="user-form-subscription">Дом/стр.</label>
+									<input type="text" class="user-form-input">
+								</li>
+								<li class="location-item">
+									<label for="" class="user-form-subscription">Офис</label>
+									<input type="text" class="user-form-input">
+								</li>
+							</ul>
+						</li>
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">Телефон</label>
+							<input type="tel" class="user-form-input">
+						</li>
+						<li class="user-form-item">
+							<label for="" class="user-form-subscription">Сайт вашей компании</label>
+							<input type="url" class="user-form-input">
+						</li>
+					</ul>
 				</section>
 				<section class="user-form-activities">
 					<h2 class="user-form-title">Виды деятельности</h2>
