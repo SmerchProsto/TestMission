@@ -1,3 +1,7 @@
+		
+
+
+
 		/* DEFAULT SETTINGS */
 
 * {
@@ -11,8 +15,8 @@ html, body, form {
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 20px;
 	color: #000000;
 	background-color: #ffffff;
 }
