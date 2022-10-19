@@ -9,7 +9,13 @@
 .main-form-title {
 	font-size: 14px;
 	line-height: 20px;
-}		
+}
+
+		/*USER-FORM*/
+
+.user-form {
+	padding-left: 30px;
+}
 
 
 		/*WRAPPER-LIST-CHOICE*/
