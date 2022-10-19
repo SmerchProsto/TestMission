@@ -18,6 +18,11 @@
 	padding-left: 30px;
 }
 
+.user-form-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
 
 		/*WRAPPER-LIST-CHOICE*/
 
