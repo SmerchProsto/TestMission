@@ -24,6 +24,28 @@
 	list-style: none;
 }
 
+.user-form-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.user-form-item:last-child {
+	margin-bottom: 0;
+}
+
+.user-form-item *:first-child {
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 180px;
+	margin-right: 20px;
+}
+
+.user-form-item *:last-child {
+	flex-basis: 200px;
+	height: 30px;
+}
 
 		/*WRAPPER-LIST-CHOICE*/
 
