@@ -55,6 +55,22 @@
 
 .user-form-input {
 	height: 30px;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+}
+
+.user-form-input:hover {
+	border: 2px solid #cccccc;
+	border-radius: 2px;
+}
+
+.user-form-input:focus {
+	border: 0;
+	outline: 2px solid #5b9ddf;
+}
+
+.user-form-input:invalid {
+  border-color: red;
 }
 
 .field-items {
