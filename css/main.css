@@ -59,6 +59,7 @@
 .main-form {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 20px;
 }
 
 
@@ -191,6 +192,10 @@
 
 		/*USER-FORM-ACTIVITIES*/
 
+.user-form-activities {
+	margin-bottom: 20px;
+}
+
 .activities-items {
 	display: flex;
 	flex-direction: column;
@@ -202,6 +207,18 @@
 	flex-direction: row;
 	align-items: center;
 	margin-bottom: 10px;
+}
+
+
+.user-form-submit {
+	min-width: 200px;
+	height: 30px;
+	padding: 5px;
+	color: #ffffff;
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgb(10, 104, 193) 47%, rgb(0, 42, 144));
+	border: 0;
+	border-radius: 5px;
 }
 
 
