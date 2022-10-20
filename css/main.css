@@ -71,7 +71,11 @@
 }
 
 .user-form-subscription {
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 180px;
 	margin-right: 20px;
+	text-align: right;
 }
 
 .field-item:first-child {
@@ -95,6 +99,22 @@
 .wrapper-list-choice {
 	margin-left: 60px;
 	margin-bottom: 50px;
+}
+
+
+		/*USER-FORM-ACTIVITIES*/
+
+.activities-items {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.activities-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
 
