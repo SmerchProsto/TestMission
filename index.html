@@ -26,12 +26,12 @@
 				<h2 class="list-choice-title">Вы регистрируетесь как</h2>
 				<ul class="list-choice">
 					<li class="list-choice-item">
-						<input type="radio" name="customer">
-						<label for="" class="list-choice-label">Покупатель</label>
+						<input type="radio" id="buyer" name="customer" value="buyer">
+						<label for="buyer" class="list-choice-label">Покупатель</label>
 					</li>
 					<li class="list-choice-item">
-						<input type="radio" name="customer">
-						<label for="" class="list-choice-label">Поставщик</label>
+						<input type="radio" id="provider" name="customer" value="provider">
+						<label for="provider" class="list-choice-label">Поставщик</label>
 					</li>
 				</ul>
 			</ul>
@@ -39,8 +39,8 @@
 				<section class="user-form-email">
 					<ul class="user-form-items">
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">Эл. Почта</label>
-					    	<input type="email" class="user-form-input">
+							<label for="user-email" class="user-form-subscription">Эл. Почта</label>
+					    	<input type="email" class="user-form-input" id="user-email">
 						</li>
 					</ul>
 				</section>
@@ -48,12 +48,12 @@
 					<h2 class="user-form-title">Название организации</h2>
 					<ul class="user-form-items">
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">ИП или Юр.лицо</label>
-							<input type="text" class="user-form-input">
+							<label for="user-name-company" class="user-form-subscription">ИП или Юр.лицо</label>
+							<input type="text" class="user-form-input" id="user-name-company">
 						</li>
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">ИНН</label>
-							<input type="text" class="user-form-input">
+							<label for="user-inn" class="user-form-subscription">ИНН</label>
+							<input type="text" class="user-form-input" id="user-inn">
 						</li>
 					</ul>
 				</section>
@@ -61,32 +61,32 @@
 					<h2 class="user-form-title">Фактический адрес</h2>
 					<ul class="user-form-items">
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">Ваш город</label>
-							<input type="text" class="user-form-input">
+							<label for="user-city" class="user-form-subscription">Ваш город</label>
+							<input type="text" class="user-form-input" id="user-city">
 						</li>
 						<li class="user-form-item">
 							<ul class="location-items field-items">
 								<li class="location-item field-item">
-									<label for="" class="user-form-subscription">Улица</label>
-									<input type="text" class="user-form-input">
+									<label for="user-street" class="user-form-subscription">Улица</label>
+									<input type="text" class="user-form-input" id="user-street">
 								</li>
 								<li class="location-item field-item">
-									<label for="" class="user-form-subscription">Дом/стр.</label>
-									<input type="text" class="user-form-input">
+									<label for="user-house" class="user-form-subscription">Дом/стр.</label>
+									<input type="text" class="user-form-input" id="user-house">
 								</li>
 								<li class="location-item field-item">
-									<label for="" class="user-form-subscription">Офис</label>
-									<input type="text" class="user-form-input">
+									<label for="user-office" class="user-form-subscription">Офис</label>
+									<input type="text" class="user-form-input" id="user-office">
 								</li>
 							</ul>
 						</li>
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">Телефон</label>
-							<input type="tel" class="user-form-input">
+							<label for="user-tel" class="user-form-subscription">Телефон</label>
+							<input type="tel" class="user-form-input" id="user-tel">
 						</li>
 						<li class="user-form-item">
-							<label for="" class="user-form-subscription">Сайт вашей компании</label>
-							<input type="url" class="user-form-input">
+							<label for="user-url" class="user-form-subscription">Сайт вашей компании</label>
+							<input type="url" class="user-form-input" id="user-url">
 						</li>
 					</ul>
 				</section>
@@ -94,28 +94,28 @@
 					<h2 class="user-form-title">Виды деятельности</h2>
 					<ul class="activities-items">
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Магазин</label>
-							<input type="checkbox" class="user-form-checkbox" checked>
+							<label for="shop" class="user-form-subscription">Магазин</label>
+							<input type="checkbox" class="user-form-checkbox" id="shop" checked>
 						</li>
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Региональная сеть магазинов</label>
-							<input type="checkbox" class="user-form-checkbox" checked>
+							<label for="regional-network-shop" class="user-form-subscription">Региональная сеть магазинов</label>
+							<input type="checkbox" class="user-form-checkbox" id="regional-network-shop" checked>
 						</li>
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Федеральная сеть магазинов</label>
-							<input type="checkbox" class="user-form-checkbox" checked>
+							<label for="federative-network-shop" class="user-form-subscription">Федеральная сеть магазинов</label>
+							<input type="checkbox" class="user-form-checkbox" id="federative-network-shop" checked>
 						</li>
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Интернет магазин</label>
-							<input type="checkbox" class="user-form-checkbox">
+							<label for="internet-shop" class="user-form-subscription">Интернет магазин</label>
+							<input type="checkbox" class="user-form-checkbox" id="internet-shop">
 						</li>
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Автосервис</label>
-							<input type="checkbox" class="user-form-checkbox">
+							<label for="car-service" class="user-form-subscription">Автосервис</label>
+							<input type="checkbox" class="user-form-checkbox" id="car-service">
 						</li>
 						<li class="activities-item">
-							<label for="" class="user-form-subscription">Прочее</label>
-							<input type="text" class="user-form-input">
+							<label for="other" class="user-form-subscription">Прочее</label>
+							<input type="text" class="user-form-input" id="other">
 						</li>
 					</ul>
 				</section>
