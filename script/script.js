@@ -1,7 +1,15 @@
 var button = document.getElementById('submit-button');
+var buyerButton = document.getElementById('buyer');
+var providerButton = document.getElementById('provider');
+var userSite = document.getElementById('user-site');
 
-button.onclick = showAlert();
+userSite.hidden = false;
 
-function showAlert(event) {
-    alert("Успешно!");
-}
+button.onclick =(e)=>
+	alert("Успешно!");
+
+buyerButton.onclick =(e)=> 
+	userSite.style.display = "none";
+
+providerButton.onclick =(e)=> 
+	userSite.style.display = "flex";
