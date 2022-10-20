@@ -215,6 +215,7 @@
 	height: 30px;
 	padding: 5px;
 	color: #ffffff;
+	cursor: pointer;
 	background: rgb(2,0,36);
 	background: linear-gradient(180deg, rgb(10, 104, 193) 47%, rgb(0, 42, 144));
 	border: 0;
