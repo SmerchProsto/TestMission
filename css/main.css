@@ -18,6 +18,12 @@
 	padding-left: 30px;
 }
 
+.user-form-title {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
 .user-form-items {
 	display: flex;
 	flex-direction: column;
@@ -99,6 +105,15 @@
 .wrapper-list-choice {
 	margin-left: 60px;
 	margin-bottom: 50px;
+}
+
+.list-choice-title {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.list-choice {
+	list-style: none;
 }
 
 
